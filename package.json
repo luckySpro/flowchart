@@ -1,0 +1,20 @@
+{
+  "name": "diagram-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5186",
+    "build": "vite build",
+    "tauri": "tauri",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@antv/x6": "^3.0.0",
+    "@tauri-apps/api": "^2.12.3",
+    "@tauri-apps/cli": "^2.12.2",
+    "lucide": "^0.468.0",
+    "tslib": "^2.8.1",
+    "vite": "^6.4.3"
+  }
+}

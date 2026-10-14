@@ -1,0 +1,18 @@
+[package]
+name = "xutu-studio"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["M&J Group <473276@qq.com>"]
+description = "Offline technical diagram editor"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde_json = "1"
+tauri-plugin-dialog = "2"
+tempfile = "3"
+roxmltree = "0.21"
+
