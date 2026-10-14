@@ -13,6 +13,12 @@
 
 这是 **X6 引擎上的新界面原型**，不是 draw.io 的完整封装，不兼容 `.drawio`。采用 X6 是为了先验证自由定制的交互；成品引擎选型仍须评估图形覆盖与改造成本。
 
+## 界面预览
+
+![ER 字段表格](docs/images/er-fields.jpg)
+
+![程序流程图符号库](docs/images/flow-library.jpg)
+
 ## 本地开发
 
 ```sh
